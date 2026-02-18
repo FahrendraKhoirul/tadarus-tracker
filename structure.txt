@@ -1,0 +1,28 @@
+.
+├── api
+│   └── tadarusApi.ts
+├── App.css
+├── App.tsx
+├── assets
+│   └── react.svg
+├── components
+├── dto
+│   ├── tadarusDto.ts
+│   ├── tadarusItemDto.ts
+│   └── tadarusUserDto.ts
+├── hooks
+│   ├── useTadarus.ts
+│   ├── useTadarusItem.ts
+│   └── useTadarusUser.ts
+├── index.css
+├── main.tsx
+├── pages
+│   ├── Home.tsx
+│   └── TadarusDetail.tsx
+├── routes
+│   └── AppRoutes.tsx
+└── utils
+    ├── supabase
+    └── supabase.ts
+
+10 directories, 16 files
