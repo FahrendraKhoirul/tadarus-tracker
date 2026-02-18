@@ -3,7 +3,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import type { TadarusDTO } from "../dto/tadarusDto";
 import type { TadarusUserDto } from "../dto/tadarusUserDto";
 import type { TadarusItemDto } from "../dto/tadarusItemDto";
-import supabase from "../utils/supabase";
 import AddUserModal from "../components/AddUserModal";
 import AddLogItem from "../components/AddLogItem";
 import SummaryModal from "../components/SummaryModal";
