@@ -131,7 +131,7 @@ export default function TadarusDetail() {
       {/* Progress Section */}
       <div className="mt-10">
         <div className="flex items-center justify-between mb-4">
-          <p className="text-lg font-bold text-gray-700">Log Setoran</p>
+          <p className="text-lg font-bold text-gray-700 px-2">Log Setoran</p>
           <div className="flex gap-2">
             <button
               onClick={() => setOpenSummaryModal(true)}

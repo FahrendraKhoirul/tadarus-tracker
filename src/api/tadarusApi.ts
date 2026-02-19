@@ -13,6 +13,20 @@ export async function getTadarus(): Promise<TadarusDTO[]> {
   return data || [];
 }
 
+export async function getItemCountsByTadarus(): Promise<
+  Record<number, number>
+> {
+  const { data, error } = await supabase
+    .from("tadarus_item")
+    .select("tadarus_id");
+  if (error) throw error;
+  const counts: Record<number, number> = {};
+  for (const row of data || []) {
+    counts[row.tadarus_id] = (counts[row.tadarus_id] ?? 0) + 1;
+  }
+  return counts;
+}
+
 export async function getTadarusById(id: number): Promise<TadarusDTO | null> {
   const { data, error } = await supabase
     .from("tadarus")
