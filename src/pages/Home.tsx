@@ -15,7 +15,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="max-w-xl mx-auto flex-col bg-gray-50 p-8 text-center h-screen">
+    <div className="max-w-xl mx-auto flex-col bg-gray-50 p-8 text-center min-h-screen">
       <p className="text-4xl font-bold text-gray-700 mb-2">Yuk Tadarus</p>
       <p className="text-xl font-semibold text-gray-500">
         Ajak teman, buat kelompok, dan saling jaga semangat sampai khatam.

@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="sticky bottom-0 w-full text-center py-6 text-sm text-gray-400 font-semibold border-t border-gray-200 bg-gray-50">
+    <footer className="mt-auto w-full text-center py-6 text-sm text-gray-400 font-semibold border-t border-gray-200 bg-gray-50">
       <p className="mb-2">🌙 Ramadan 2026 · by Fahrendra Khoirul</p>
       <div className="flex justify-center gap-4">
         <a
