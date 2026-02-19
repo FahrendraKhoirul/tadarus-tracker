@@ -22,7 +22,12 @@ function formatDate(date: Date): string {
 
 function toDateKey(isoString?: string): string {
   if (!isoString) return "unknown";
-  return isoString.slice(0, 10); // "YYYY-MM-DD"
+  const date = new Date(isoString);
+  // Use local date parts to avoid UTC vs local timezone mismatch
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, "0");
+  const d = String(date.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
 }
 
 function formatDateKey(key: string): string {
@@ -93,7 +98,9 @@ export default function SummaryModal({
 
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
-      <h2 className="text-xl font-bold text-gray-700 mb-4">Laporan Grup</h2>
+      <h2 className="text-xl font-bold text-gray-700 mb-4">
+        Yuk Kabarin Teman-teman Grup
+      </h2>
 
       {/* Preview */}
       <pre className="whitespace-pre-wrap font-sans text-sm text-gray-700 bg-gray-100 rounded-2xl p-4 mb-6 border-2 border-gray-200 leading-relaxed">

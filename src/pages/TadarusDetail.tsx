@@ -69,6 +69,8 @@ export default function TadarusDetail() {
       day: "numeric",
       month: "short",
       year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
     });
   };
 
@@ -138,7 +140,9 @@ export default function TadarusDetail() {
               Lapor Grup
             </button>
             <button
-              onClick={() => setOpenLogModal(true)}
+              onClick={() => {
+                setOpenLogModal(true);
+              }}
               className="font-semibold text-white bg-sky-500 border-sky-500 border-2 rounded-2xl shadow-[0_2px_0_0_rgba(0,0,0,0.3)] px-4 py-2 text-sm active:translate-y-[6px] active:shadow-none transition-all duration-150 hover:-translate-y-1 hover:shadow-[0_8px_0_0_rgba(0,0,0,0.5)]"
             >
               + Tambah Setoran
@@ -201,7 +205,10 @@ export default function TadarusDetail() {
         onClose={() => setOpenLogModal(false)}
         tadarusId={id!}
         members={tadarusUsers}
-        onSuccess={fetchItems}
+        onSuccess={() => {
+          fetchItems();
+          setOpenSummaryModal(true);
+        }}
       />
       {tadarus && (
         <SummaryModal
