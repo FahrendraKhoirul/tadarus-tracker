@@ -42,6 +42,7 @@ function buildSummary(
   items: TadarusItemDto[],
 ): string {
   const lines: string[] = [];
+  lines.push("➡️ https://tadarus-tracker.vercel.app/ ⬅️");
   lines.push(`*TADARUS: ${tadarus.name.toUpperCase()}*`);
   lines.push(`${tadarus.description}`);
   lines.push(
