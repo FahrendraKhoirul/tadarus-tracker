@@ -63,9 +63,17 @@ function buildSummary(
   const memberMap: Record<number, string> = {};
   for (const m of members) memberMap[m.id] = m.name;
 
+  // Only keep the last 5 days of activity
+  const uniqueDateKeys = Array.from(
+    new Set(sortedItems.map((item) => toDateKey(item.created_at))),
+  );
+  const last5DateKeys = new Set(uniqueDateKeys.slice(-5));
+
   let lastDateKey = "";
   for (const item of sortedItems) {
     const dateKey = toDateKey(item.created_at);
+    if (!last5DateKeys.has(dateKey)) continue;
+
     if (dateKey !== lastDateKey) {
       if (lastDateKey !== "") lines.push(""); // blank line between date sections
       lines.push(formatDateKey(dateKey));
@@ -90,6 +98,11 @@ export default function SummaryModal({
   const [copied, setCopied] = useState(false);
 
   const summary = buildSummary(tadarus, members, items);
+  const summaryLines = summary.split("\n");
+  const previewSummary =
+    summaryLines.length > 15
+      ? summaryLines.slice(0, 15).join("\n") + "\n....."
+      : summary;
 
   async function handleCopy() {
     await navigator.clipboard.writeText(summary);
@@ -105,7 +118,7 @@ export default function SummaryModal({
 
       {/* Preview */}
       <pre className="whitespace-pre-wrap font-sans text-sm text-gray-700 bg-gray-100 rounded-2xl p-4 mb-6 border-2 border-gray-200 leading-relaxed">
-        {summary}
+        {previewSummary}
       </pre>
 
       {/* Buttons */}
