@@ -88,6 +88,21 @@ function buildSummary(
   return lines.join("\n").trimEnd();
 }
 
+function neatSummary(summary: string): string {
+  const summaryLines = summary.split("\n");
+  if (summaryLines.length > 15) {
+    // take first 6 line
+    const first6Lines = summaryLines.slice(0, 6);
+    //  add "..."
+    first6Lines.push(".....");
+    // take last 9 line
+    const last9Lines = summaryLines.slice(-9);
+    // join them
+    return first6Lines.join("\n") + last9Lines.join("\n");
+  }
+  return summary;
+}
+
 export default function SummaryModal({
   isOpen,
   onClose,
@@ -98,11 +113,7 @@ export default function SummaryModal({
   const [copied, setCopied] = useState(false);
 
   const summary = buildSummary(tadarus, members, items);
-  const summaryLines = summary.split("\n");
-  const previewSummary =
-    summaryLines.length > 15
-      ? summaryLines.slice(0, 15).join("\n") + "\n....."
-      : summary;
+  const previewSummary = neatSummary(summary);
 
   async function handleCopy() {
     await navigator.clipboard.writeText(summary);
