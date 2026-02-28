@@ -94,7 +94,7 @@ function neatSummary(summary: string): string {
     // take first 6 line
     const first6Lines = summaryLines.slice(0, 6);
     //  add "..."
-    first6Lines.push(".....");
+    first6Lines.push("....." + "\n");
     // take last 9 line
     const last9Lines = summaryLines.slice(-9);
     // join them
