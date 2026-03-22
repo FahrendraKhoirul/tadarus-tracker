@@ -1,6 +1,7 @@
 import type { TadarusDTO } from "../dto/tadarusDto";
 import type { TadarusItemDto } from "../dto/tadarusItemDto";
 import type { TadarusUserDto } from "../dto/tadarusUserDto";
+import type { WrappedDTO } from "../dto/wrappedDto";
 import supabase from "../utils/supabase";
 
 export async function getTadarus(): Promise<TadarusDTO[]> {
@@ -87,4 +88,18 @@ export async function createTadarusItem(payload: any) {
   const { error } = await supabase.from("tadarus_item").insert([payload]);
 
   if (error) throw error;
+}
+
+export async function getWrappedByTadarusId(
+  tadarusId: number,
+): Promise<WrappedDTO> {
+  const { data, error } = await supabase
+    .from("wrapped")
+    .select("*")
+    .eq("tadarus_id", tadarusId)
+    .single();
+
+  if (error) throw error;
+
+  return data;
 }

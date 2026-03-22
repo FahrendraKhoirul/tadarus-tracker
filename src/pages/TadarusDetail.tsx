@@ -128,6 +128,46 @@ export default function TadarusDetail() {
           + Tambah User
         </button>
       </div>
+
+      <button
+        onClick={() => navigate(`/wrapped/${id}`)}
+        className="relative w-full mt-6 px-6 py-3 rounded-2xl font-bold text-white text-base overflow-hidden
+          bg-gradient-to-r from-purple-500 via-pink-500 to-rose-500
+          shadow-[0_0_20px_4px_rgba(192,38,211,0.5)]
+          hover:shadow-[0_0_32px_8px_rgba(236,72,153,0.7)]
+          hover:scale-[1.03] active:scale-[0.97]
+          transition-all duration-300 ease-in-out
+          animate-pulse-glow"
+        style={{
+          animation: "pulseGlow 2.5s ease-in-out infinite",
+        }}
+      >
+        {/* Shimmer sweep */}
+        <span
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background:
+              "linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.25) 50%, transparent 70%)",
+            animation: "shimmer 2.5s infinite",
+            backgroundSize: "200% 100%",
+          }}
+        />
+        <span className="relative z-10 flex items-center justify-center gap-2">
+          🎬 Lihat Ramadhan Wrapped
+          <span className="text-xs opacity-80 font-normal">✨</span>
+        </span>
+        <style>{`
+          @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+          }
+          @keyframes pulseGlow {
+            0%, 100% { box-shadow: 0 0 18px 4px rgba(192,38,211,0.5); }
+            50% { box-shadow: 0 0 36px 10px rgba(236,72,153,0.75); }
+          }
+        `}</style>
+      </button>
+
       {/* Progress Section */}
       <div className="mt-10">
         <div className="flex items-center justify-between mb-4">

@@ -1,0 +1,712 @@
+{
+  "summary": {
+    "total_ayah": 6375,
+    "total_surah": 114,
+    "total_users": 8,
+    "total_sessions": 76,
+    "total_days_active": 26
+  },
+  "leaderboard": {
+    "top_reader": [
+      {
+        "name": "Inna",
+        "total_ayah": 1968
+      },
+      {
+        "name": "Ghozi",
+        "total_ayah": 1211
+      },
+      {
+        "name": "Arika",
+        "total_ayah": 853
+      }
+    ],
+    "most_sessions": [
+      {
+        "name": "Arika",
+        "total_sessions": 18
+      },
+      {
+        "name": "Inna",
+        "total_sessions": 18
+      },
+      {
+        "name": "Rendra",
+        "total_sessions": 14
+      }
+    ],
+    "longest_session": [
+      {
+        "name": "Inna",
+        "total_ayah": 861
+      },
+      {
+        "name": "Ghozi",
+        "total_ayah": 525
+      },
+      {
+        "name": "Ghozi",
+        "total_ayah": 461
+      }
+    ]
+  },
+  "best_day": {
+    "most_ayah": {
+      "date": "2026-03-15",
+      "total_ayah": 1882
+    },
+    "most_sessions": {
+      "date": "2026-03-15",
+      "total_sessions": 9
+    }
+  },
+  "streak": {
+    "longest_active": {
+      "days": 23,
+      "start": "2026-02-18",
+      "end": "2026-03-12"
+    },
+    "longest_break": {
+      "days": 1,
+      "start": "2026-03-13",
+      "end": "2026-03-13"
+    }
+  },
+  "time_pattern": {
+    "favorite_hour": 21,
+    "favorite_hour_count": 21
+  },
+  "personalities": [
+    {
+      "name": "Arika",
+      "personality": "\ud83d\udd25 The Consistent One",
+      "description": "Si Paling rutin (18 sesi)"
+    },
+    {
+      "name": "Inna",
+      "personality": "\ud83d\udc51 The Leader",
+      "description": "Kontribusi paling banyak (1,968 ayat / 31.5%)"
+    },
+    {
+      "name": "Ghozi",
+      "personality": "\ud83d\udcd6 The Marathon Reader",
+      "description": "Sekali baca paling banyak (3 juz solo marathon)"
+    },
+    {
+      "name": "Rendra",
+      "personality": "\ud83d\udee0\ufe0f The Supporter & Developer",
+      "description": "Kasih note paling banyak dan of course he literally build this app"
+    },
+    {
+      "name": "Reni",
+      "personality": "\ud83c\udf24\ufe0f The Afternoon",
+      "description": "Paling sering ngaji siang"
+    },
+    {
+      "name": "Farhan",
+      "personality": "\ud83d\ude42 The At Least Ngaji",
+      "description": "Paling sedikit (cuma 3 sesi, jirlah)"
+    },
+    {
+      "name": "Puthut",
+      "personality": "\ud83d\ude80 The Initiator",
+      "description": "Mengawali tadarus paling awal & asbun target 3x khatam"
+    },
+    {
+      "name": "Hilal",
+      "personality": "\ud83c\udf2a\ufe0f The Chaotic",
+      "description": "Merusak tatanan tadarus di tengah Ramadhan \ud83d\ude04"
+    },
+    {
+      "name": "Echa",
+      "personality": "\ud83d\udc7b The Invisible",
+      "description": "Gak ngaji sama sekali"
+    }
+  ],
+  "slides": [
+    {
+      "type": "intro",
+      "data": {
+        "text": "\ud83c\udf19 Ramadhan 2026 telah usai...\nTapi perjalanan ini tidak akan terlupakan \ud83e\udd0d\nMari kita lihat kembali jejak tadarus kita tahun ini."
+      }
+    },
+    {
+      "type": "summary",
+      "data": {
+        "text": "Ramadhan ini, kalian telah membaca 6,375 ayat \ud83d\udcd6\nDalam 76 sesi, bersama 8 orang hebat \ud83d\udc65\nDan menjaga konsistensi selama 26 hari \u2728\n\nMasyaAllah \ud83e\udd0d"
+      }
+    },
+    {
+      "type": "leaderboard_top_reader",
+      "data": {
+        "headline": "\ud83d\udc51 Inna menjadi Top Reader tahun ini",
+        "subtext": "Dengan total 1,968 ayat dibaca\nKontribusi yang luar biasa untuk tim \ud83d\udd25",
+        "top3": [
+          {
+            "name": "Inna",
+            "total_ayah": 1968
+          },
+          {
+            "name": "Ghozi",
+            "total_ayah": 1211
+          },
+          {
+            "name": "Arika",
+            "total_ayah": 853
+          }
+        ]
+      }
+    },
+    {
+      "type": "leaderboard_sessions",
+      "data": {
+        "headline": "\ud83d\udd01 Arika paling sering hadir",
+        "subtext": "Dengan 18 sesi tadarus\nSelalu ada di setiap kesempatan \ud83e\udd0d",
+        "top3": [
+          {
+            "name": "Arika",
+            "total_sessions": 18
+          },
+          {
+            "name": "Inna",
+            "total_sessions": 18
+          },
+          {
+            "name": "Rendra",
+            "total_sessions": 14
+          }
+        ]
+      }
+    },
+    {
+      "type": "leaderboard_longest",
+      "data": {
+        "headline": "\ud83d\udcd6 Inna pernah membaca 861 ayat",
+        "subtext": "Sebuah effort yang tidak biasa \ud83d\udc4f",
+        "top3": [
+          {
+            "name": "Inna",
+            "total_ayah": 861
+          },
+          {
+            "name": "Ghozi",
+            "total_ayah": 525
+          },
+          {
+            "name": "Ghozi",
+            "total_ayah": 461
+          }
+        ]
+      }
+    },
+    {
+      "type": "best_day",
+      "data": {
+        "text": "\ud83d\udcc5 Hari paling produktif jatuh pada 2026-03-15\nSebanyak 1,882 ayat dibaca dalam satu hari \ud83d\ude80\nHari itu... semua sedang on fire \ud83d\udd25"
+      }
+    },
+    {
+      "type": "timeline",
+      "data": {
+        "timeline": [
+          {
+            "date": "2026-02-18",
+            "total_ayah": 323
+          },
+          {
+            "date": "2026-02-19",
+            "total_ayah": 120
+          },
+          {
+            "date": "2026-02-20",
+            "total_ayah": 73
+          },
+          {
+            "date": "2026-02-21",
+            "total_ayah": 133
+          },
+          {
+            "date": "2026-02-22",
+            "total_ayah": 141
+          },
+          {
+            "date": "2026-02-23",
+            "total_ayah": 24
+          },
+          {
+            "date": "2026-02-24",
+            "total_ayah": 151
+          },
+          {
+            "date": "2026-02-25",
+            "total_ayah": 57
+          },
+          {
+            "date": "2026-02-26",
+            "total_ayah": 157
+          },
+          {
+            "date": "2026-02-27",
+            "total_ayah": 89
+          },
+          {
+            "date": "2026-02-28",
+            "total_ayah": 35
+          },
+          {
+            "date": "2026-03-01",
+            "total_ayah": 79
+          },
+          {
+            "date": "2026-03-02",
+            "total_ayah": 50
+          },
+          {
+            "date": "2026-03-03",
+            "total_ayah": 30
+          },
+          {
+            "date": "2026-03-04",
+            "total_ayah": 71
+          },
+          {
+            "date": "2026-03-05",
+            "total_ayah": 107
+          },
+          {
+            "date": "2026-03-06",
+            "total_ayah": 105
+          },
+          {
+            "date": "2026-03-07",
+            "total_ayah": 255
+          },
+          {
+            "date": "2026-03-08",
+            "total_ayah": 128
+          },
+          {
+            "date": "2026-03-09",
+            "total_ayah": 221
+          },
+          {
+            "date": "2026-03-10",
+            "total_ayah": 233
+          },
+          {
+            "date": "2026-03-11",
+            "total_ayah": 112
+          },
+          {
+            "date": "2026-03-12",
+            "total_ayah": 196
+          },
+          {
+            "date": "2026-03-14",
+            "total_ayah": 742
+          },
+          {
+            "date": "2026-03-15",
+            "total_ayah": 1882
+          },
+          {
+            "date": "2026-03-16",
+            "total_ayah": 861
+          }
+        ]
+      }
+    },
+    {
+      "type": "streak",
+      "data": {
+        "text": "\ud83d\udd25 Kalian pernah konsisten selama 23 hari berturut-turut\nDari 2026-02-18 sampai 2026-03-12\nDisitulah momentum terbaik terjadi \u2728"
+      }
+    },
+    {
+      "type": "break",
+      "data": {
+        "text": "\ud83d\udca4 Tapi ada juga bolongnya\u2026\nSelama 1 hari tanpa tadarus\nDan itu tidak apa-apa,\nkarena kita selalu kembali \ud83e\udd0d"
+      }
+    },
+    {
+      "type": "user_streak",
+      "data": {
+        "list": [
+          {
+            "name": "Inna",
+            "longest_streak": 6,
+            "start": "2026-03-07",
+            "end": "2026-03-12"
+          },
+          {
+            "name": "Rendra",
+            "longest_streak": 6,
+            "start": "2026-03-05",
+            "end": "2026-03-10"
+          },
+          {
+            "name": "Arika",
+            "longest_streak": 4,
+            "start": "2026-03-03",
+            "end": "2026-03-06"
+          },
+          {
+            "name": "Reni",
+            "longest_streak": 3,
+            "start": "2026-02-24",
+            "end": "2026-02-26"
+          },
+          {
+            "name": "Ghozi",
+            "longest_streak": 2,
+            "start": "2026-02-18",
+            "end": "2026-02-19"
+          },
+          {
+            "name": "Hilal",
+            "longest_streak": 2,
+            "start": "2026-02-23",
+            "end": "2026-02-24"
+          },
+          {
+            "name": "Farhan",
+            "longest_streak": 1,
+            "start": "2026-02-18",
+            "end": "2026-02-18"
+          },
+          {
+            "name": "Puthut",
+            "longest_streak": 1,
+            "start": "2026-02-18",
+            "end": "2026-02-18"
+          }
+        ]
+      }
+    },
+    {
+      "type": "user_break",
+      "data": {
+        "list": [
+          {
+            "name": "Farhan",
+            "longest_break": 24,
+            "start": "2026-02-19",
+            "end": "2026-03-14"
+          },
+          {
+            "name": "Ghozi",
+            "longest_break": 22,
+            "start": "2026-02-20",
+            "end": "2026-03-13"
+          },
+          {
+            "name": "Puthut",
+            "longest_break": 21,
+            "start": "2026-02-22",
+            "end": "2026-03-14"
+          },
+          {
+            "name": "Inna",
+            "longest_break": 10,
+            "start": "2026-02-25",
+            "end": "2026-03-06"
+          },
+          {
+            "name": "Hilal",
+            "longest_break": 9,
+            "start": "2026-03-03",
+            "end": "2026-03-11"
+          },
+          {
+            "name": "Reni",
+            "longest_break": 6,
+            "start": "2026-02-27",
+            "end": "2026-03-04"
+          },
+          {
+            "name": "Rendra",
+            "longest_break": 5,
+            "start": "2026-02-22",
+            "end": "2026-02-26"
+          },
+          {
+            "name": "Arika",
+            "longest_break": 3,
+            "start": "2026-02-28",
+            "end": "2026-03-02"
+          }
+        ]
+      }
+    },
+    {
+      "type": "time_pattern",
+      "data": {
+        "text": "\ud83c\udf19 Waktu favorit tadarus adalah pukul 21:00\nSaat dunia mulai sunyi,\nkalian memilih mendekat \ud83e\udd0d"
+      }
+    },
+    {
+      "type": "personality",
+      "data": {
+        "list": [
+          {
+            "name": "Arika",
+            "personality": "\ud83d\udd25 The Consistent One",
+            "description": "Si Paling rutin (18 sesi)"
+          },
+          {
+            "name": "Inna",
+            "personality": "\ud83d\udc51 The Leader",
+            "description": "Kontribusi paling banyak (1,968 ayat / 31.5%)"
+          },
+          {
+            "name": "Ghozi",
+            "personality": "\ud83d\udcd6 The Marathon Reader",
+            "description": "Sekali baca paling banyak (3 juz solo marathon)"
+          },
+          {
+            "name": "Rendra",
+            "personality": "\ud83d\udee0\ufe0f The Supporter & Developer",
+            "description": "Kasih note paling banyak dan of course he literally build this app"
+          },
+          {
+            "name": "Reni",
+            "personality": "\ud83c\udf24\ufe0f The Afternoon",
+            "description": "Paling sering ngaji siang"
+          },
+          {
+            "name": "Farhan",
+            "personality": "\ud83d\ude42 The At Least Ngaji",
+            "description": "Paling sedikit (cuma 3 sesi, jirlah)"
+          },
+          {
+            "name": "Puthut",
+            "personality": "\ud83d\ude80 The Initiator",
+            "description": "Mengawali tadarus paling awal & asbun target 3x khatam"
+          },
+          {
+            "name": "Hilal",
+            "personality": "\ud83c\udf2a\ufe0f The Chaotic",
+            "description": "Merusak tatanan tadarus di tengah Ramadhan \ud83d\ude04"
+          },
+          {
+            "name": "Echa",
+            "personality": "\ud83d\udc7b The Invisible",
+            "description": "Gak ngaji sama sekali"
+          }
+        ]
+      }
+    },
+    {
+      "type": "closing",
+      "data": {
+        "text": "Ramadhan ini mungkin akan berakhir...\nTapi kebiasaan baik ini\ntidak harus ikut selesai \ud83e\udd0d\n\nSampai jumpa di Ramadhan berikutnya \ud83c\udf19"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-02-18",
+      "total_ayah": 323
+    },
+    {
+      "date": "2026-02-19",
+      "total_ayah": 120
+    },
+    {
+      "date": "2026-02-20",
+      "total_ayah": 73
+    },
+    {
+      "date": "2026-02-21",
+      "total_ayah": 133
+    },
+    {
+      "date": "2026-02-22",
+      "total_ayah": 141
+    },
+    {
+      "date": "2026-02-23",
+      "total_ayah": 24
+    },
+    {
+      "date": "2026-02-24",
+      "total_ayah": 151
+    },
+    {
+      "date": "2026-02-25",
+      "total_ayah": 57
+    },
+    {
+      "date": "2026-02-26",
+      "total_ayah": 157
+    },
+    {
+      "date": "2026-02-27",
+      "total_ayah": 89
+    },
+    {
+      "date": "2026-02-28",
+      "total_ayah": 35
+    },
+    {
+      "date": "2026-03-01",
+      "total_ayah": 79
+    },
+    {
+      "date": "2026-03-02",
+      "total_ayah": 50
+    },
+    {
+      "date": "2026-03-03",
+      "total_ayah": 30
+    },
+    {
+      "date": "2026-03-04",
+      "total_ayah": 71
+    },
+    {
+      "date": "2026-03-05",
+      "total_ayah": 107
+    },
+    {
+      "date": "2026-03-06",
+      "total_ayah": 105
+    },
+    {
+      "date": "2026-03-07",
+      "total_ayah": 255
+    },
+    {
+      "date": "2026-03-08",
+      "total_ayah": 128
+    },
+    {
+      "date": "2026-03-09",
+      "total_ayah": 221
+    },
+    {
+      "date": "2026-03-10",
+      "total_ayah": 233
+    },
+    {
+      "date": "2026-03-11",
+      "total_ayah": 112
+    },
+    {
+      "date": "2026-03-12",
+      "total_ayah": 196
+    },
+    {
+      "date": "2026-03-14",
+      "total_ayah": 742
+    },
+    {
+      "date": "2026-03-15",
+      "total_ayah": 1882
+    },
+    {
+      "date": "2026-03-16",
+      "total_ayah": 861
+    }
+  ],
+  "user_streaks": [
+    {
+      "name": "Inna",
+      "longest_streak": 6,
+      "start": "2026-03-07",
+      "end": "2026-03-12"
+    },
+    {
+      "name": "Rendra",
+      "longest_streak": 6,
+      "start": "2026-03-05",
+      "end": "2026-03-10"
+    },
+    {
+      "name": "Arika",
+      "longest_streak": 4,
+      "start": "2026-03-03",
+      "end": "2026-03-06"
+    },
+    {
+      "name": "Reni",
+      "longest_streak": 3,
+      "start": "2026-02-24",
+      "end": "2026-02-26"
+    },
+    {
+      "name": "Ghozi",
+      "longest_streak": 2,
+      "start": "2026-02-18",
+      "end": "2026-02-19"
+    },
+    {
+      "name": "Hilal",
+      "longest_streak": 2,
+      "start": "2026-02-23",
+      "end": "2026-02-24"
+    },
+    {
+      "name": "Farhan",
+      "longest_streak": 1,
+      "start": "2026-02-18",
+      "end": "2026-02-18"
+    },
+    {
+      "name": "Puthut",
+      "longest_streak": 1,
+      "start": "2026-02-18",
+      "end": "2026-02-18"
+    }
+  ],
+  "user_breaks": [
+    {
+      "name": "Farhan",
+      "longest_break": 24,
+      "start": "2026-02-19",
+      "end": "2026-03-14"
+    },
+    {
+      "name": "Ghozi",
+      "longest_break": 22,
+      "start": "2026-02-20",
+      "end": "2026-03-13"
+    },
+    {
+      "name": "Puthut",
+      "longest_break": 21,
+      "start": "2026-02-22",
+      "end": "2026-03-14"
+    },
+    {
+      "name": "Inna",
+      "longest_break": 10,
+      "start": "2026-02-25",
+      "end": "2026-03-06"
+    },
+    {
+      "name": "Hilal",
+      "longest_break": 9,
+      "start": "2026-03-03",
+      "end": "2026-03-11"
+    },
+    {
+      "name": "Reni",
+      "longest_break": 6,
+      "start": "2026-02-27",
+      "end": "2026-03-04"
+    },
+    {
+      "name": "Rendra",
+      "longest_break": 5,
+      "start": "2026-02-22",
+      "end": "2026-02-26"
+    },
+    {
+      "name": "Arika",
+      "longest_break": 3,
+      "start": "2026-02-28",
+      "end": "2026-03-02"
+    }
+  ]
+}

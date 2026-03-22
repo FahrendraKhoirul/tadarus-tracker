@@ -8,4 +8,6 @@ export interface TadarusItemDto {
   to_ayah: number;
   note: string;
   created_at?: string;
+  from_surah_id: number;
+  to_surah_id: number;
 }

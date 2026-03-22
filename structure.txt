@@ -6,7 +6,14 @@
 ├── assets
 │   └── react.svg
 ├── components
+│   ├── AddLogItem.tsx
+│   ├── AddTadarusModal.tsx
+│   ├── AddUserModal.tsx
+│   ├── Footer.tsx
+│   ├── Modal.tsx
+│   └── SummaryModal.tsx
 ├── dto
+│   ├── surahDto.ts
 │   ├── tadarusDto.ts
 │   ├── tadarusItemDto.ts
 │   └── tadarusUserDto.ts
@@ -19,10 +26,13 @@
 ├── pages
 │   ├── Home.tsx
 │   └── TadarusDetail.tsx
+├── python
+│   ├── wrapped_temp.json
+│   └── wrapped.ipynb
 ├── routes
 │   └── AppRoutes.tsx
 └── utils
     ├── supabase
     └── supabase.ts
 
-10 directories, 16 files
+11 directories, 25 files
