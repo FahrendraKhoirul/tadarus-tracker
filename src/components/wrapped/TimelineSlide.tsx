@@ -81,7 +81,6 @@ export default function TimelineSlide({ data }: Props) {
   const step = Math.ceil(timeline.length / 6);
   const xLabels = pts.filter((_, i) => i % step === 0 || i === pts.length - 1);
 
-  const hoveredPt = hovered !== null ? pts[hovered] : null;
   const hoveredEntry = hovered !== null ? timeline[hovered] : null;
 
   return (
